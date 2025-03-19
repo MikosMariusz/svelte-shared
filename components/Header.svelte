@@ -4,28 +4,36 @@
 <header>
 	<div class="navbar bg-base-100 shadow-sm">
 		<div class="flex-1">
-		  <a class="btn btn-ghost text-xl">daisyUI</a>
+			<h4 aria-current={page.url.pathname === '/' ? 'page' : undefined}>
+				<a href="/">Programowanie w Piskorzowie</a>
+			</h4>
 		</div>
 		<div class="flex-none">
-		  <ul class="menu menu-horizontal px-1">
-			<li><a>Link</a></li>
-			<li>
-			  <details>
-				<summary>Parent</summary>
-				<ul class="bg-base-100 rounded-t-none p-2">
-				  <li><a>Link 1</a></li>
-				  <li><a>Link 2</a></li>
-				</ul>
-			  </details>
-			</li>
-		  </ul>
+			<ul class="menu menu-horizontal px-1">
+				<li aria-current={page.url.pathname === '/' ? 'page' : undefined}>
+					<a href="/">Home</a>
+				</li>
+				<li>
+					<details>
+						<summary>Parent</summary>
+						<ul class="bg-base-100 rounded-t-none p-2">
+							<li><a>Link 1</a></li>
+							<li><a>Link 2</a></li>
+						</ul>
+					</details>
+				</li>
+			</ul>
 		</div>
-	  </div>
+	</div>
 </header>
 
 
 <style>
 	header {
+<<<<<<< HEAD
 		z-index: 101;
+=======
+		z-index: 10;
+>>>>>>> 0d8940753a427172849f4a0be9de3d5e55c1fa18
 	}
 </style>
