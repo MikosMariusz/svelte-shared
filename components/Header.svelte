@@ -30,10 +30,6 @@
 
 <style>
 	header {
-<<<<<<< HEAD
-		z-index: 101;
-=======
 		z-index: 10;
->>>>>>> 0d8940753a427172849f4a0be9de3d5e55c1fa18
 	}
 </style>
