@@ -1,9 +1,9 @@
 <script>
-	import BackgroundSVG from '$lib/components/BackgroundSVG.svelte';
+	import BackgroundSvg from "$lib/components/BackgroundSVG.svelte";
 </script>
 
 <div class="background-wrapper">
-	<BackgroundSVG />
+	<BackgroundSvg />
 </div>
 
 <style>
@@ -14,6 +14,6 @@
 		width: 100vw;
 		height: 100vh;
 		overflow: hidden;
-		z-index: 100;
+		z-index: 2;
 	}
 </style>
