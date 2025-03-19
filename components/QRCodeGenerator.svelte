@@ -61,6 +61,6 @@
 
 <style>
 	.qrgenerator {
-		z-index: 12;
+		z-index: 3;
 	}
 </style>
