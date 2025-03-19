@@ -3,13 +3,12 @@
 </script>
 
 <div class="background-wrapper">
-	<span>Test</span>
 	<BackgroundSVG />
 </div>
 
 <style>
 	.background-wrapper {
-		position: fixed;
+		position: absolute;
 		top: 0;
 		left: 0;
 		width: 100vw;
